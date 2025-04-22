@@ -72,15 +72,15 @@ Monte Carlo Control with:
 * Demonstration bias decay
 
 ### Training Pipeline (main.py)
-* Multiple training modes:
+* **Multiple training modes:**
 
- ** Standard Monte Carlo
+ - Standard Monte Carlo
 
- ** Demonstration-guided
+ - Demonstration-guided
 
- ** Improved training with hyperparameter tuning
+ - Improved training with hyperparameter tuning
 
-* Evaluation metrics tracking
+* **Evaluation metrics tracking**
 
 * Policy visualization tools
 
