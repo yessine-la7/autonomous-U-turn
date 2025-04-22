@@ -43,46 +43,46 @@ python main.py --mode visualize --width 6.5
 
 ## Key Components
 ### Environment Implementation (car_environment.py)
-- State Space: Car position (x,y) and orientation (γ)
+* State Space: Car position (x,y) and orientation (γ)
 
-- Action Space: 133 discrete actions (19 wheel angles × 7 speeds)
+* Action Space: 133 discrete actions (19 wheel angles × 7 speeds)
 
-- Termination Conditions:
+* Termination Conditions:
 
-* Successful U-turn (180° rotation)
+ - Successful U-turn (180° rotation)
 
-* Leaving street boundaries
+ - Leaving street boundaries
 
-* Max steps (400)
+ - Max steps (400)
 
 ### Interactive Demo (interactive_demo.py)
-- Pygame-based visualization
+* Pygame-based visualization
 
-- Keyboard controls for human demonstrations
+* Keyboard controls for human demonstrations
 
-- Demonstration recording and saving
+* Demonstration recording and saving
 
 ### Learning Algorithm (monte_carlo.py)
 Monte Carlo Control with:
 
-- Demonstration initialization
+* Demonstration initialization
 
-- Staged epsilon decay
+* Staged epsilon decay
 
-- Demonstration bias decay
+* Demonstration bias decay
 
 ### Training Pipeline (main.py)
-- Multiple training modes:
+* Multiple training modes:
 
-* Standard Monte Carlo
+ - Standard Monte Carlo
 
-* Demonstration-guided
+ - Demonstration-guided
 
-* Improved training with hyperparameter tuning
+ - Improved training with hyperparameter tuning
 
-- Evaluation metrics tracking
+* Evaluation metrics tracking
 
-- Policy visualization tools
+* Policy visualization tools
 
 
 ## Results
