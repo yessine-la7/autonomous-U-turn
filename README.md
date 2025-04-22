@@ -65,12 +65,17 @@ Monte Carlo Control with:
 
 * Demonstration bias decay
 
-### Training Pipeline (main.py)
+### Training (main.py)
 * Multiple training modes: Standard Monte Carlo, Demonstration-guided, Improved training with hyperparameter tuning
 
 * Evaluation metrics tracking
 
 * Policy visualization tools
+
+### Demonstration Files (demos)
+* Contains recorded demonstrations of successful U-turns.
+
+* Used to guide the reinforcement learning agent during training.
 
 
 ## Results
