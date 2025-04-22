@@ -47,13 +47,7 @@ python main.py --mode visualize --width 6.5
 
 * Action Space: 133 discrete actions (19 wheel angles × 7 speeds)
 
-* Termination Conditions:
-
- - Successful U-turn (180° rotation)
-
- - Leaving street boundaries
-
- - Max steps (400)
+* Termination Conditions: Successful U-turn (180° rotation), Leaving street boundaries, Max steps (400)
 
 ### Interactive Demo (interactive_demo.py)
 * Pygame-based visualization
@@ -72,15 +66,9 @@ Monte Carlo Control with:
 * Demonstration bias decay
 
 ### Training Pipeline (main.py)
-* **Multiple training modes:**
+* Multiple training modes: Standard Monte Carlo, Demonstration-guided, Improved training with hyperparameter tuning
 
- - Standard Monte Carlo
-
- - Demonstration-guided
-
- - Improved training with hyperparameter tuning
-
-* **Evaluation metrics tracking**
+* Evaluation metrics tracking
 
 * Policy visualization tools
 
